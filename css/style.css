@@ -135,6 +135,25 @@ body {
 .navigation-search-btn:focus {
 	outline: none;
 }
+
+.navigation-list {
+	list-style: none;
+	padding: 0;
+	height: 28rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navigation-link {
+	color: #fff;
+	font-size: 1.6rem;
+	font-weight: 400;
+	letter-spacing: 0.1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+}
 /* End: Navigation Menu */
 
 /* End: Navbar */
