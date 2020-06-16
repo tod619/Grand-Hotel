@@ -23,6 +23,7 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+	z-index: 10;
 }
 
 .menu-icon {
@@ -77,8 +78,8 @@ body {
 
 /* Navigation Menu */
 .navigation {
-	margin-left: 8rem;
 	position: fixed;
+	left: -32rem;
 	width: 40rem;
 	height: 100%;
 	background: linear-gradient(to top, rgba(34, 32, 41, 1), rgba(34, 32, 41, 0.8)),
@@ -88,6 +89,7 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+	transition: left 0.8s cubic-bezier(1, 0, 0, 1);
 }
 
 .navigation-heading {
@@ -195,6 +197,10 @@ body {
 	color: #fff;
 	font-size: 1.2rem;
 	margin-bottom: 1.5rem;
+}
+
+.checkbox:checked ~ .navigation {
+	left: 8rem;
 }
 /* End: Navigation Menu */
 
