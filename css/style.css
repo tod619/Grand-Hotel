@@ -230,4 +230,17 @@ body {
 	background-size: cover;
 }
 
+.brand {
+	display: flex;
+	cursor: pointer;
+}
+
+.hotel-heading {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2.7rem;
+	font-weight: 400;
+	color: #deaa86;
+	letter-spacing: 0.2rem;
+}
+
 /* End: Header */
