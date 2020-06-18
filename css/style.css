@@ -199,20 +199,20 @@ body {
 	margin-bottom: 1.5rem;
 }
 
-.checkbox:checked ~ .navigation {
+.checkbox:checked~.navigation {
 	left: 8rem;
 }
 
-.checkbox:checked ~ .sidebar .line-1 {
+.checkbox:checked~.sidebar .line-1 {
 	transform: rotate(-405deg) translate(-5px, 6px);
 	width: 2.5rem;
 }
 
-.checkbox:checked ~ .sidebar .line-2 {
+.checkbox:checked~.sidebar .line-2 {
 	opacity: 0;
 }
 
-.checkbox:checked ~ .sidebar .line-3 {
+.checkbox:checked~.sidebar .line-3 {
 	transform: rotate(405deg) translate(-5px, -6px);
 	width: 2.5rem;
 }
@@ -421,6 +421,7 @@ body {
 	color: #b85d1c;
 	margin: auto;
 }
+
 /* End: Common Header */
 /* Rooms */
 .rooms {
@@ -503,6 +504,7 @@ body {
 	color: #ddd;
 	background-color: #b85d1c;
 }
+
 /* End: Rooms */
 
 /* Customers  */
@@ -560,4 +562,31 @@ body {
 	font-size: 1.3rem;
 	font-style: italic;
 }
+
 /* End: Customers */
+
+/* Footer */
+.footer {
+	margin-left: 8rem;
+}
+
+.main-part {
+	display: flex;
+	justify-content: space-between;
+	background-color: #1c1c1c;
+	padding: 4rem;
+}
+
+.footer-heading {
+	font-size: 2.5rem;
+	font-weight: 300;
+	color: goldenrod;
+	margin: 1rem 0 3rem 0;
+}
+
+.footer-list {
+	list-style: none;
+	padding: 0;
+}
+
+/* End: Footer */
