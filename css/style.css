@@ -90,6 +90,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	transition: left 0.8s cubic-bezier(1, 0, 0, 1);
+	z-index: 5;
 }
 
 .navigation-heading {
@@ -703,6 +704,40 @@ body {
 
 	.footer-list-item {
 		margin-right: 3rem;
+	}
+}
+
+@media (max-width: 1200px) {
+	.about-us {
+		flex-direction: column;
+		padding-bottom: 20rem;
+	}
+
+	.about-us-content {
+		margin-bottom: 13rem;
+	}
+
+	.image {
+		width: 25rem;
+	}
+}
+
+@media (max-width: 900px) {
+	.banner {
+		text-align: center;
+	}
+
+	.banner-heading {
+		font-size: 4.7rem;
+	}
+
+	.banner-paragraph {
+		font-size: 2.6rem;
+	}
+
+	.banner-btn {
+		width: 16rem;
+		font-size: 1.5rem;
 	}
 }
 /* End: Media queries */
