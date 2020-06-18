@@ -199,20 +199,20 @@ body {
 	margin-bottom: 1.5rem;
 }
 
-.checkbox:checked~.navigation {
+.checkbox:checked ~ .navigation {
 	left: 8rem;
 }
 
-.checkbox:checked~.sidebar .line-1 {
+.checkbox:checked ~ .sidebar .line-1 {
 	transform: rotate(-405deg) translate(-5px, 6px);
 	width: 2.5rem;
 }
 
-.checkbox:checked~.sidebar .line-2 {
+.checkbox:checked ~ .sidebar .line-2 {
 	opacity: 0;
 }
 
-.checkbox:checked~.sidebar .line-3 {
+.checkbox:checked ~ .sidebar .line-3 {
 	transform: rotate(405deg) translate(-5px, -6px);
 	width: 2.5rem;
 }
@@ -681,3 +681,28 @@ body {
 }
 
 /* End: Footer */
+
+/* Media queries */
+@media (max-width: 1400px) {
+	.customers-card-wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.customer-card:first-child {
+		margin-bottom: 3rem;
+	}
+
+	.main-part {
+		flex-direction: column;
+	}
+
+	.footer-list {
+		display: flex;
+	}
+
+	.footer-list-item {
+		margin-right: 3rem;
+	}
+}
+/* End: Media queries */
